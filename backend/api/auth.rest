@@ -4,9 +4,10 @@ POST {{host}}/signup
 Content-Type: application/json
 
 {
-    "name": "sumit",
-    "email": "sumit@gmail.com",
-    "password": "Bhargav@123"
+    "name": "Sumit",
+    "email": "Sumit@gmail.com",
+    "password": "Sumit@123",
+    "confirm_password": "Sumit@123"
 }
 
 ###
@@ -14,6 +15,6 @@ POST {{host}}/signin
 Content-Type: application/json
 
 {
-    "email": "yogesh@gmail.com",
-    "password": "Yogesh@123"
+    "email": "Sumit@gmail.com",
+    "password": "Sumit@123"
 }

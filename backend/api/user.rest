@@ -1,0 +1,5 @@
+@host=http://localhost:5000/api/user
+
+GET {{host}}
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzk4ZDVhMDE1ZjBjZWU3ZTI4NTFlYSIsIm5hbWUiOiJiaGFyZ2F2IiwiZW1haWwiOiJiaGFyZ2F2QGdtYWlsLmNvbSIsImlhdCI6MTY1NzM3NjA5MCwiZXhwIjoxNjU3Mzg2ODkwfQ.E8_ihbMVVmL3nmjN-CMCCo7wxxbrT_ZDAfzXEzAM93s

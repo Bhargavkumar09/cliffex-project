@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 require("express-async-errors");
 const mongoose = require("mongoose");
+const cors = require("cors");
 const error = require("./app/middleware/error");
 const app = express();
 const auth = require("./app/routes/auth");
@@ -21,10 +22,11 @@ mongoose
   });
 
 // middleware
+app.use(cors());
 app.use(express.json());
 
 app.use("/api/auth", auth);
-app.use("/api/user", user);
+app.use("/api/users", user);
 app.use(error);
 
 // server connection
